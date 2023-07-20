@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 375px;
+    background-image: url(images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    width: 120px;
+    position: absolute;
+    top: 2.3em;
+    left: 2.3em;
+}
+.mockups {
+    width: 296px;
+    height: 209px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 290px; 
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 304px;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #684BB1;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #E880E8;
+}
+.social-icons {
+    margin-bottom: 4em;
+}
+.ig-icon {
+    margin-left: 1.4em;
+    margin-right: 1.4em;
+}
+.ig-icon, .fb-icon, .tw-icon {
+    cursor: pointer;
+}
+@media only screen and (min-width: 992px) {
+    body {
+        width: 1440px;
+        height: 800px;
+        background-image: url(images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logo {
+        width: 170px;
+        position: absolute;
+        top: 2.3em;
+        left: 4.4em;
+    }
+    .mockups {
+        width: 696px;
+        height: 493px;
+        padding-top: 2em;
+        padding-right: 3em;
+    }
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-start;
+        padding-right: 3em;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+        text-align: left;
+        width: 487px;
+        height: 120px;
+    }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        color: #FFFFFF;
+        width: 520px;
+        height: 81px;
+        padding-bottom: 1em;
+    }
+    button {
+        width: 200px;
+        height: 56px;
+        border: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #684BB1;
+    }
+    .social-icons {
+        padding-top: 4em;
+        margin-left: 65em;
+    }
+}
