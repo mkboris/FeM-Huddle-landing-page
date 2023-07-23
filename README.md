@@ -15,8 +15,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: https://github.com/mkboris/FeM-Huddle-landing-page
-- Live Site URL: https://mkboris.github.io/FeM-Huddle-landing-page/
+- Solution URL: https://github.com/mkboris/Huddle-landing-page
+- Live Site URL: https://mkboris.github.io/Huddle-landing-page/
 
 
 ### Built with
